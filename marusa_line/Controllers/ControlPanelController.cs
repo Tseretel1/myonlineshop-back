@@ -688,5 +688,19 @@ namespace marusa_line.Controllers
                 return BadRequest(ex.Message);
             }
         }
+        [Authorize]
+        [HttpPut("update-quantity")]
+        public async Task<IActionResult> UpdateProductOderAllowed(int productId, int quantity)
+        {
+            try
+            {
+                var user = await _controlPanelService.UpdateQuantity(productId, quantity);
+                return Ok(user);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
     }
 }

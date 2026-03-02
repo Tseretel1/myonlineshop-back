@@ -39,6 +39,7 @@ namespace marusa_line.interfaces
 
         Task<int> UpdateUserRole(int userId, string role);
         Task<int> UpdateProductOderAllowed(int productID, bool allowed);
+        Task<int> UpdateQuantity(int productId, int quantity);
         Task<List<GetUserDto>> GetUsersList(GetUserFilteredDto dto,int shopId);
         Task<List<GetUserDto>> GetShopFollowersList(int shopId, GetUserFilteredDto dto);
         Task<ShopStatsDto> GetShopStats(int shopId);

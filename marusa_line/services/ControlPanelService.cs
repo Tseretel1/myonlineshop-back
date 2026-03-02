@@ -304,11 +304,11 @@ namespace marusa_line.services
                     dto.Description,
                     dto.Price,
                     dto.DiscountedPrice,
-                    dto.Quantity,
                     dto.ProductTypeId
                 },
                 commandType: CommandType.StoredProcedure
             );
+            if (dto.Photos != null){
             foreach (var photo in dto.Photos)
             {
                 await conn.ExecuteAsync(
@@ -316,6 +316,7 @@ namespace marusa_line.services
                     new { ProductId = postId, photo.PhotoUrl },
                     commandType: CommandType.StoredProcedure
                 );
+            }
             }
             return postId;
         }
@@ -604,6 +605,21 @@ namespace marusa_line.services
                 },
                 commandType: CommandType.StoredProcedure
             ) ;
+            return 0;
+        }
+        public async Task<int> UpdateQuantity(int productId, int quantity)
+        {
+            using var conn = new SqlConnection(_connectionString);
+
+            var result = await conn.QueryAsync<int>(
+                "[dbo].[UpdateQuantity]",
+                new
+                {
+                    ProductId = productId,
+                    quantity = quantity
+                },
+                commandType: CommandType.StoredProcedure
+            );
             return 0;
         }
         public async Task<int> UpdateUserRole(int userId, string role)
