@@ -22,11 +22,11 @@ namespace marusa_line.Controllers
         }
 
         [HttpGet("login-to-shop")]
-        public async Task<IActionResult> GetPostsForAdminPanel(string gmail, string password)
+        public async Task<IActionResult> GetPostsForAdminPanel(string email, string password)
         {
             try
             {
-                var token = await _controlPanelService.AuthorizeShopAsync(gmail,password);
+                var token = await _controlPanelService.AuthorizeShopAsync(email,password);
                 if (token == null || !token.Any())
                 {
                     var notSucceded = new
