@@ -1,12 +1,11 @@
 {
   "Version": 1,
-  "Hash": "ymzIn/LfXdRsKU3ia8LfOFGepM51vkK950eNJzEnjWY=",
+  "Hash": "CzJpDhspDzhDCyM5gj8HAIKYPg6SdcMk8BsnO4B/tyQ=",
   "Source": "marusa_line",
   "BasePath": "_content/marusa_line",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }

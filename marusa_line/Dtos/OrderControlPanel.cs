@@ -21,6 +21,8 @@ namespace marusa_line.Dtos
 
         public int LikeCount { get; set; }
         public bool IsLiked { get; set; }
+        public int OrderNumber { get; set; }
+
         public List<Photos> Photos { get; set; } = new List<Photos>();
 
         public User User { get; set; }

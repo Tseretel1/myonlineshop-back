@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\g.tsereteli\\Desktop\\marusa_line_back\\marusa_line\\marusa_line.csproj": {}
+    "C:\\Users\\user\\Documents\\GitHub\\marusa_line_back\\marusa_line\\marusa_line.csproj": {}
   },
   "projects": {
-    "C:\\Users\\g.tsereteli\\Desktop\\marusa_line_back\\marusa_line\\marusa_line.csproj": {
+    "C:\\Users\\user\\Documents\\GitHub\\marusa_line_back\\marusa_line\\marusa_line.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\g.tsereteli\\Desktop\\marusa_line_back\\marusa_line\\marusa_line.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\marusa_line_back\\marusa_line\\marusa_line.csproj",
         "projectName": "marusa_line",
-        "projectPath": "C:\\Users\\g.tsereteli\\Desktop\\marusa_line_back\\marusa_line\\marusa_line.csproj",
-        "packagesPath": "C:\\Users\\g.tsereteli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\g.tsereteli\\Desktop\\marusa_line_back\\marusa_line\\obj\\",
+        "projectPath": "C:\\Users\\user\\Documents\\GitHub\\marusa_line_back\\marusa_line\\marusa_line.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Documents\\GitHub\\marusa_line_back\\marusa_line\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\g.tsereteli\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -38,13 +34,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net7.0": {
@@ -94,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

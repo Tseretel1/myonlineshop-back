@@ -15,7 +15,9 @@ namespace marusa_line.Dtos
 
 
 
-        public int ProductId { get; set; }         
+        public int ProductId { get; set; }     
+        public int OrderNumber { get; set; }
+
         public string Title { get; set; }
         public string Description { get; set; }
         public decimal Price { get; set; }
@@ -46,5 +48,6 @@ namespace marusa_line.Dtos
         public string Lng { get; set; }
         public string Lat { get; set; }
         public string Address { get; set; }
+        public int OrderNumber { get; set; }
     }
 }
